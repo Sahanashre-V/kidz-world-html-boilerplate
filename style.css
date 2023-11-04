@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+}
+.space-between{
+    display:flex;
+    flex-wrap: wrap;
+    gap:5px;
+}
+.backimg{
+    height:400px;
+    width:100%;
+    position:relative;
+}
+.books{
+    height:250px;
+}
+.text{
+    position:absolute;
+    top:150px;
+    bottom:50px;
+    width:50%;
+    margin-left:50px;
+    color:white;
+}
+.games{
+    height:268px;
+}
+.crafts{
+    height:268px;
+}
+.krishti{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+}
+.section{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.car{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 50px;
+}
