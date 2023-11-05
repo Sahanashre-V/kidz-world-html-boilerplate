@@ -1,6 +1,9 @@
 *{
     margin:0px;
 }
+body {
+    font-family: "Rubik", sans-serif;
+  }  
 .space-between{
     display:flex;
     flex-wrap: wrap;
