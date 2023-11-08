@@ -1,17 +1,8 @@
 *{
     margin:0px;
-}
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
-body {
-    font-family: "Rubik", sans-serif;
-  }  
-.space-between{
-    display:flex;
-    flex-wrap: wrap;
-    gap:5px;
-}
+} 
 .backimg{
-    height:370px;
+    height:330px;
     width:100%;
     position:relative;
 }
@@ -27,32 +18,20 @@ body {
     color:white;
 }
 .games{
-    height:268px;
+    height:230px;
 }
 .crafts{
-    height:268px;
+    height:230px;
 }
 .krishti{
     height:150px;
     width:150px;
     border-radius: 50%;
 }
-.section{
-    padding-left: 90px;
-    padding-right: 90px;
-    margin-top:90px;
-}
 .car{
     display: flex;
     align-items: center;
     margin-right: 50px;
-}
-.space-between{
-    display: flex;
-    justify-content: space-between;
-}
-.logo{
-    margin-left: 50px;
 }
 .text>h1{
     font-size:50px;
@@ -76,20 +55,85 @@ h4{
     gap:5px;
     border-radius: 4px;
     padding:5px;
-}
-.footer{
-    margin-top:100px;
-    display: flex;
-    align-items: center;
-    gap:1000px;
-    color:white;
-    background-color: black;
-    width:100%;
-    padding-left:70px;
+    width:90%;
 }
 .sah{
     padding-left: 152px;
 }
 .sahu{
     padding-left: 3px;
+}
+.tin1{
+    display:flex;
+    gap:20px;
+    margin-left: 150px;
+    padding-top:10px;
+}
+.tin2{
+    display:flex;
+    gap:62px;
+    margin-left:150px;
+    padding-top:10px;
+}
+.tin3{
+    display:flex;
+    gap:62px;
+    margin-left:150px;
+    padding-top:10px;
+}
+h2{
+    margin-left:150px;
+    padding-top:90px;
+}
+.child1{
+    display:flex;
+    gap:90px;
+}
+.box1{
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    padding-left:55px;
+}
+.add{
+    background-color:#6196ff;
+    color:white;
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    border-radius: 4px;
+    padding:5px;
+    margin-left: 70px;
+}
+.amount{
+    font-weight:900;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    gap:880px;
+    color:white;
+    background-color: black;
+    margin-top: 100px;
+}
+.krish{
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-top:10px;
+}
+.k1{
+    padding-left:165px;
+}
+.k2{
+    padding-left: 9px;
+}
+.foot2{
+    top:50px;
+}
+.foot1>h2{
+    margin-top:-60px;
+}
+.box2{
+    margin-top: 20px;
 }
