@@ -17,6 +17,9 @@
     margin-left:50px;
     color:white;
 }
+.box3{
+    padding: 5%;
+}
 .games{
     height:230px;
 }
@@ -63,28 +66,15 @@ h4{
 .sahu{
     padding-left: 3px;
 }
-.tin1{
+.tin1,.tin2,.tin3{
     display:flex;
-    gap:20px;
-    margin-left: 150px;
-    padding-top:10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-.tin2{
-    display:flex;
-    gap:62px;
-    margin-left:150px;
-    padding-top:10px;
+.kid1{
+     margin-bottom: 15px;
 }
-.tin3{
-    display:flex;
-    gap:62px;
-    margin-left:150px;
-    padding-top:10px;
-}
-h2{
-    margin-left:150px;
-    padding-top:90px;
-}
+
 .child1{
     display:flex;
     gap:90px;
@@ -112,15 +102,19 @@ h2{
 .footer{
     display: flex;
     align-items: center;
-    gap:880px;
     color:white;
+    gap: 890px;
     background-color: black;
     margin-top: 100px;
+    height:300px;
+}
+.foot1>h2{
+    margin-left:140px;
 }
 .krish{
     border-radius: 100%;
     margin-left: 150px;
-    margin-top:10px;
+    margin-top:30px;
 }
 .k1{
     padding-left:165px;
@@ -136,4 +130,56 @@ h2{
 }
 .box2{
     margin-top: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .tin1,.tin2,.tin3{
+        margin: 10px;
+        flex-wrap: wrap;
+    }     
+    .img{
+        height:30px;
+        
+    } 
+    .tin1{
+        margin-left:50px ;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        color:white;
+        background-color: black;
+        margin-top:30px;
+    }
+    
+    .tin2,.tin3{
+        margin-left:2px;
+    }
+    .box3>h2{
+        padding-left:55px;
+    }
+    .k1,.k2{
+        padding: 0px;
+    }
+    .footer{
+        gap: 1px;
+        margin-left:-140px;
+        display:flex;
+        justify-content: center;
+    }
+    .foot1>h2{
+        margin-right:20px;
+    }
+    h2{
+        margin-left:-30px;
+    }
+    .backimg{
+        height:350px;
+        width:325px;
+    }
+    .img{
+        margin-right:50px;
+    }
+    .c1{
+        height:30px;
+    }
 }
